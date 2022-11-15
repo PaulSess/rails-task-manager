@@ -1,9 +1,24 @@
+
 body{
   background-image: url('background.jpg');
+  object-fit: cover;
   background-size: cover;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
 }
-
-
+.new{
+  width: 250px;
+  margin: 130px auto;
+}
+.new1{
+  width: 280px;
+  margin: 130px auto 20px;
+}
+.btnC{
+  background-color: #E5E5E5;
+  border: 1px solid grey;
+}
 
 
 

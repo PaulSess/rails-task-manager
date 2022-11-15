@@ -1,6 +1,16 @@
-<%= link_to "edite this task", edit_task_path  %>
+<div class=" d-flex flex-column new align-items-center">
 
-<%= @task.title %> <br>
-<%= @task.details %> <br>
+  <div class="mb-4 fs-3 text text-decoration-underline" >
+    <%= @task.title %> <br>
+  </div>
+  <div class="mb-4 fs-3 text" >
+    <%= @task.details %> <br>
+  </div>
 
-<%= link_to "back to list", tasks_path %>
+  <div class="btn btnC text-dark">
+    <%= link_to "edite this task", edit_task_path  %>
+  </div>
+  <div class="btnC btn" >
+    <%= link_to "back to list", tasks_path %>
+  </div>
+</div>
